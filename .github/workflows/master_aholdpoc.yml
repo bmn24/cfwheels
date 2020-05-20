@@ -29,4 +29,4 @@ jobs:
         app-name: 'aholdpoc'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_3596532f8a674f399dfd2291bd6940d3 }}
-        package: '${{ github.workspace }}/target/*.jar'
+        package: '${{ github.workspace }}/target/lucee.war'
